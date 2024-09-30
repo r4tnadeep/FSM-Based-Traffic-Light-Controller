@@ -6,11 +6,17 @@ The system operates in a loop, where the default state keeps the highway green a
 Traffic Light States:
 
 State 0 (s0): Highway green, country road red.
+
 State 1 (s1): Highway yellow, country road red.
+
 State 2 (s2): Highway red, country road red (transition state).
+
 State 3 (s3): Highway red, country road green.
+
 State 4 (s4): Highway red, country road yellow.
 
 Delays:
+
 Y2Rdelay: Delay for the transition from yellow to red.
+
 R2Gdelay: Delay for the transition from red to green.
